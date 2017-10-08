@@ -14,9 +14,10 @@ $(document).ready(function() {
         // event.which to find out the key code
         // specifiying a key for each car(let say this is car1)
         if(event.which === 81) {
-
+          if((speed1 === 700) && (speed2 === 700)){
+            alert("it\'s a tie.Please reset to play again");
           //now we need to set up who could be a winner
-          if(speed1 === 300) {
+          } else if(speed1 === 700) {
             alert("winner is car 1");
             winner = true;
 
@@ -29,8 +30,10 @@ $(document).ready(function() {
         }
         //specifiyin a key for cars(let say this is car2)
         if(event.which === 80) {
-          //now we need to set up who could be a winner2
-          if(speed2 === 300) {
+          if((speed1 === 700) && (speed2 === 700)){
+            alert("it\'s a tie.Please reset to play again");
+            //now we need to set up who could be a winner2
+          }else if(speed2 === 700) {
             alert("the winner is car2");
             winner = true;
             // no one wins? keep driving
