@@ -60,7 +60,13 @@ $(document).ready(function() {
 
   });
 
-
+  $("#reset").on('click',function(){
+      $('#raceTrack1').css('margin-left', 0);
+      $("#raceTrack2").css('margin-left', 0);
+      speed1 = 0;
+      speed2 = 0;
+      winner = false;
+  });
 
 
 });
