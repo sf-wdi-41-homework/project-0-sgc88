@@ -6,7 +6,7 @@ var winner = false;
 $(document).ready(function() {
 
   // $('#raceTrack').css('height','300');
-  $('#race').keydown(function(event) {
+  $(document).keydown(function(event) {
     if(winner === false){
         // find a way to only listen to keydown for 'Q' and 'P'
         // 'Q' key is 81

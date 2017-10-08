@@ -1,4 +1,43 @@
-#main{
+/*#road{
 
-  background:yellow;
+  background:gray;
+}*/
+
+#raceArea{
+  background-image: url("pineapple.jpg");
+}
+
+#reset{
+
+  margin:20px auto;
+  margin-left:800px;
+  padding:5px;
+  background-color: red;
+  border:3px solid black;
+  border-radius:10px;
+  color:yellow;
+}
+
+#line{
+
+  height:5px;
+  width:100%;
+  background-color: black;
+}
+
+#raceTrack1{
+  background-color: gray;
+}
+#raceTrack2{
+  background-color: gray
+
+}
+h1{
+
+  text-align: center;
+  color:#913a1a;
+  font-size: 80px;
+  font-family:sans-serif;
+  padding-bottom: 100px;
+  padding-top:100px;
 }
