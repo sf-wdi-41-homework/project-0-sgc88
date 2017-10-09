@@ -32,7 +32,7 @@ $(document).ready(function() {
         if(event.which === 80) {
           if((speed1 === 700) && (speed2 === 700)){
             alert("it\'s a tie.Please reset to play again");
-            //now we need to set up who could be a winner2
+            //now we need to set up who could be a winne-2
           }else if(speed2 === 700) {
             alert("the winner is car2");
             winner = true;
